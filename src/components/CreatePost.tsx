@@ -27,7 +27,7 @@ function CreatePost() {
       if (result?.success) {
         // reset the form
         setContent("");
-        setImageUrl("");
+        // setImageUrl("");
         setShowImageUpload(false);
 
         toast.success("Post created successfully");
